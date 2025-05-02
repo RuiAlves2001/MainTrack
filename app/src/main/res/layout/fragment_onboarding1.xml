@@ -4,7 +4,7 @@
 xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-android:layout_height="match_parent">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/phoneImage"
@@ -38,10 +38,10 @@ android:layout_height="match_parent">
         android:background="@drawable/rounded_button"
         android:text=""
         android:drawableEnd="@drawable/ic_next_arrow"
-    android:paddingEnd="16dp"
-    android:paddingStart="16dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent" />
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
