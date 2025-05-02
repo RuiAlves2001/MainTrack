@@ -12,6 +12,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         val loginButton = findViewById<Button>(R.id.login_button)
+        val registerButton = findViewById<Button>(R.id.register_button)
 
         loginButton.setOnClickListener {
             // Aqui colocarias a lógica real de login (verificação de credenciais, etc.)
@@ -24,5 +25,13 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
+
+        registerButton.setOnClickListener{
+            startActivity(Intent(this, RegistoAccActivity::class.java))
+            finish()
+        }
+
+
+
     }
 }

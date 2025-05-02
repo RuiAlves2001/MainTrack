@@ -20,25 +20,19 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Atividade de main -->
+        </activity> <!-- Atividade de main -->
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-
-        <!-- Atividade de login -->
+            android:exported="false" /> <!-- Atividade de login -->
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
-
-        <!-- Atividade principal após login -->
+            android:exported="false" /> <!-- Atividade principal após login -->
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
-
     </application>
 
 </manifest>
