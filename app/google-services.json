@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172556277966",
+    "project_id": "maintrack-cm25",
+    "storage_bucket": "maintrack-cm25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172556277966:android:859895a25a9ed8454d989f",
+        "android_client_info": {
+          "package_name": "com.ipvc.maintrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB57U1S2Ejp59-BswgTbO06T4IVe8dAzcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

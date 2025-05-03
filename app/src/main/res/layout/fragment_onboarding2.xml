@@ -10,6 +10,7 @@
         android:id="@+id/phoneImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@string/splash_screen_2"
         android:scaleType="centerCrop"
         android:src="@drawable/onboarding_background_2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,55 +18,57 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/titleText"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="484dp"
+        android:layout_marginTop="488dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="sans-serif"
-        android:text="Registe Avarias em\nSegundos"
+        android:text="@string/splash_screen_2"
         android:textAlignment="center"
         android:textColor="#212121"
-        android:textSize="28sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/subtitleText"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:fontFamily="sans-serif"
-        android:text="Tire uma foto, descreve o\nproblema e envie tudo pelo app."
+        android:text="@string/splash_screen_2_text"
         android:textAlignment="center"
         android:textColor="#212121"
-        android:textSize="14sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titleText" />
 
     <Button
         android:id="@+id/next_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:background="@drawable/rounded_button"
-        android:drawableEnd="@drawable/ic_next_arrow"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp"
-        android:text=""
+        app:cornerRadius="150dp"
+        android:backgroundTint="@color/orange"
+        android:drawableTop="@drawable/ic_next_arrow"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:contentDescription="@string/avancar"
+        app:layout_constraintStart_toStartOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

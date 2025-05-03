@@ -1,14 +1,15 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.maintrack"
+    namespace = "com.ipvc.maintrack"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.maintrack"
+        applicationId = "com.ipvc.maintrack"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -42,7 +43,17 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // Firebase BOM para versões consistentes
+    implementation(platform("com.google.firebase:firebase-bom:33.13.0"))
+
+    // Firebase Analytics e Authentication
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
+
+
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.maintrack">
+    package="com.ipvc.maintrack">
 
     <application
         android:allowBackup="true"
@@ -16,7 +16,7 @@
 
         <!-- Launcher (decide para onde vai: onboarding, login ou home) -->
         <activity
-            android:name=".LauncherActivity"
+            android:name="com.ipvc.maintrack.LauncherActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,14 +25,16 @@
             </intent-filter>
         </activity> <!-- Atividade de main -->
         <activity
-            android:name=".MainActivity"
+            android:name="com.ipvc.maintrack.MainActivity"
             android:exported="false" /> <!-- Atividade de login -->
         <activity
-            android:name=".LoginActivity"
+            android:name="com.ipvc.maintrack.LoginActivity"
             android:exported="false" /> <!-- Atividade principal após login -->
         <activity
-            android:name=".HomeActivity"
+            android:name="com.ipvc.maintrack.HomeActivity"
             android:exported="false" />
+
+        <activity android:name="com.ipvc.maintrack.RegistoAccActivity" android:exported="false"/>
     </application>
 
 </manifest>

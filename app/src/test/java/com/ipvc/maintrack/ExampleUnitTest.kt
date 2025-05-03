@@ -1,4 +1,4 @@
-package com.example.maintrack
+package com.ipvc.maintrack
 
 import org.junit.Test
 

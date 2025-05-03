@@ -1,4 +1,4 @@
-package com.example.maintrack
+package com.ipvc.maintrack
 
 import android.content.Context.MODE_PRIVATE
 import android.content.Intent

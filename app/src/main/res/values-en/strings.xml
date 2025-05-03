@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_welcome">Welcome to MAINTRACK!</string>
+    <string name="app_welcome_text">Manage, monitor and resolve variations simply and efficiently.</string>
+    <string name="splash_screen_2">Record Faults in Seconds</string>
+    <string name="splash_screen_2_text">Take a photo, describe the problem and send it all through the app.</string>
+    <string name="splash_screen_3">Fast and Collaborative Resolution</string>
+    <string name="splash_screen_3_text">Track the status of faults and interventions wherever you are.</string>
+    <string name="splash_screen_4">Monitor Everything in Real Time</string>
+    <string name="splash_screen_4_text">Acompanhe o status das avarias e intervenções onde estiver.</string>
+    <string name="splash_screen_5">Stay Up to Date</string>
+    <string name="splash_screen_5_text">Receive notifications about updates and resolutions directly on your mobile phone.</string>
+    <string name="Email">E-mail</string>
+    <string name="Palavras_passe">Password</string>
+    <string name="Registo">Registration</string>
+    <string name="login">Login</string>
+    <string name="Login_Efetuado">Login Completed</string>
+    <string name="Login_Erro">Login error</string>
+    <string name="Nome">Name</string>
+    <string name="Contacto">Contact</string>
+    <string name="Verificação_palavras_passe">Password verification</string>
+    <string name="Registo_Efetuado">Registo Efetuado</string>
+    <string name="Erro_registo">Error in registration</string>
+</resources>
