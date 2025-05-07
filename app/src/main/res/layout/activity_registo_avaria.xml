@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_arrow"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Voltar"
+                app:tint="@color/red" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Registo avaria"
+                android:textSize="18sp"
+                android:textColor="@color/red"
+                android:gravity="center"
+                android:paddingEnd="48dp" />
+        </LinearLayout>
+
+        <!-- Fotografias -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fotografias"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="start">
+
+            <ImageView
+                android:id="@+id/photo1"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/ic_add_photo"
+                android:background="@drawable/photo_background"
+                android:contentDescription="Adicionar foto"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/photo2"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/ic_add_photo"
+                android:background="@drawable/photo_background"
+                android:contentDescription="Adicionar foto"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show all"
+            android:textColor="@color/red"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="end" />
+
+        <!-- Descrição -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição Detalhada"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/descricao"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_background"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:padding="8dp" />
+
+        <!-- Tipo de Urgência -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo Urgência"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/urgencia_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/urgencia_baixa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baixa"
+                android:buttonTint="@color/red" />
+
+            <RadioButton
+                android:id="@+id/urgencia_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Media"
+                android:buttonTint="@color/red"
+                android:layout_marginStart="16dp" />
+
+            <RadioButton
+                android:id="@+id/urgencia_alta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alta"
+                android:buttonTint="@color/red"
+                android:layout_marginStart="16dp" />
+        </RadioGroup>
+
+        <!-- Localização -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Localização"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/localizacao"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_background"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:padding="8dp" />
+
+        <!-- Botão Submeter -->
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submeter"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/orange"
+            android:textColor="@android:color/white"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>

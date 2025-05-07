@@ -16,7 +16,7 @@ class LauncherActivity : AppCompatActivity() {
         val nextActivity = when {
             !onboardingDone -> MainActivity::class.java
             !userLoggedIn -> LoginActivity::class.java
-            else -> HomeActivity::class.java
+            else -> GestorHomeActivity::class.java
         }
 
         startActivity(Intent(this, nextActivity))

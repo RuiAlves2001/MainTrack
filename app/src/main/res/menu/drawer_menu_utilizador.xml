@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/nav_registo_avaria" android:title="@string/nav_registo_avaria" />
+        <item android:id="@+id/nav_resolvidas" android:title="@string/nav_resolvidas" />
+        <item android:id="@+id/nav_processo" android:title="@string/nav_processo" />
+        <item android:id="@+id/nav_pendentes" android:title="@string/nav_pendentes" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/nav_perfil" android:title="@string/nav_perfil" />
+            <item android:id="@+id/nav_logout" android:title="@string/nav_logout" />
+        </menu>
+    </item>
+</menu>

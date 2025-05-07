@@ -21,4 +21,10 @@
     <string name="Verificação_palavras_passe">Password verification</string>
     <string name="Registo_Efetuado">Registo Efetuado</string>
     <string name="Erro_registo">Error in registration</string>
+    <string name="nav_registo_avaria">Fault report</string>
+    <string name="nav_resolvidas">Resolved issues</string>
+    <string name="nav_processo">Issues in progress</string>
+    <string name="nav_pendentes">Pending issues</string>
+    <string name="nav_perfil">Profile</string>
+    <string name="nav_logout">Log out</string>
 </resources>

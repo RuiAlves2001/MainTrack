@@ -22,5 +22,12 @@
     <string name="Registo_Efetuado">Registo Efetuado</string>
     <string name="Erro_registo">Erro no registo</string>
     <string name="avancar" translatable="false">avancar</string>
+    <string name="nav_registo_avaria">Registo de avarias</string>
+    <string name="nav_resolvidas">Avarias resolvidas</string>
+    <string name="nav_processo">Avarias em processo</string>
+    <string name="nav_pendentes">Avarias pendentes</string>
+    <string name="nav_perfil">Perfil</string>
+    <string name="nav_logout">Terminar Sessão</string>
+
 
 </resources>

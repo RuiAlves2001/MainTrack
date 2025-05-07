@@ -13,10 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MainTrack"
         tools:targetApi="31">
-
-        <!-- Launcher (decide para onde vai: onboarding, login ou home) -->
         <activity
-            android:name="com.ipvc.maintrack.LauncherActivity"
+            android:name=".UtilizadorHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistoAvariaActivity"
+            android:exported="false" /> <!-- Launcher (decide para onde vai: onboarding, login ou home) -->
+        <activity
+            android:name=".LauncherActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,16 +29,17 @@
             </intent-filter>
         </activity> <!-- Atividade de main -->
         <activity
-            android:name="com.ipvc.maintrack.MainActivity"
+            android:name=".MainActivity"
             android:exported="false" /> <!-- Atividade de login -->
         <activity
-            android:name="com.ipvc.maintrack.LoginActivity"
+            android:name=".LoginActivity"
             android:exported="false" /> <!-- Atividade principal após login -->
         <activity
-            android:name="com.ipvc.maintrack.HomeActivity"
+            android:name=".GestorHomeActivity"
             android:exported="false" />
-
-        <activity android:name="com.ipvc.maintrack.RegistoAccActivity" android:exported="false"/>
+        <activity
+            android:name=".RegistoAccActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
