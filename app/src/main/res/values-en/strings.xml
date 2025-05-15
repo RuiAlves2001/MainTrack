@@ -36,5 +36,7 @@
     <string name="urgencia_alta">High</string>
     <string name="localizacao_label">Location</string>
     <string name="botao_submeter">Submit</string>
-
+    <string name="Configuracoes">Settings</string>
+    <string name="perfil">Profile</string>
+    <string name="mensagens">Messages</string>
 </resources>

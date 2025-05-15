@@ -37,7 +37,8 @@
     <string name="urgencia_alta">Alta</string>
     <string name="localizacao_label">Localização</string>
     <string name="botao_submeter">Submeter</string>
-
-
+    <string name="Configuracoes">Configurações</string>
+    <string name="perfil">Perfil</string>
+    <string name="mensagens">Mensagens</string>
 
 </resources>
