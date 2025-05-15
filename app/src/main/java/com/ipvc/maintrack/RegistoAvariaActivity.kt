@@ -13,6 +13,7 @@ import android.util.Base64
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.RadioButton
 import android.widget.RadioGroup
@@ -33,6 +34,8 @@ class RegistoAvariaActivity : AppCompatActivity() {
     private lateinit var urgenciaGroup: RadioGroup
     private lateinit var photo1: ImageView
     private lateinit var submitButton: Button
+    private lateinit var backButton: ImageButton
+
 
     private var selectedImageUri: Uri? = null
     private var imageBase64: String? = null
@@ -61,6 +64,9 @@ class RegistoAvariaActivity : AppCompatActivity() {
         urgenciaGroup = findViewById(R.id.urgencia_group)
         photo1 = findViewById(R.id.photo1)
         submitButton = findViewById(R.id.submit_button)
+        backButton = findViewById(R.id.back_button)
+
+
 
         photo1.setOnClickListener {
             Log.d("RegistoAvaria", "Botão de imagem clicado")
@@ -71,6 +77,14 @@ class RegistoAvariaActivity : AppCompatActivity() {
             Log.d("RegistoAvaria", "Botão de submeter clicado")
             registarAvaria()
         }
+
+        backButton.setOnClickListener {
+            val intent = Intent(this, UtilizadorHomeActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+            startActivity(intent)
+            finish()
+        }
+
     }
 
     private fun pedirPermissaoEGaleria() {

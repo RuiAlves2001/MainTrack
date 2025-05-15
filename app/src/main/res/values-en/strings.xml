@@ -27,4 +27,14 @@
     <string name="nav_pendentes">Pending issues</string>
     <string name="nav_perfil">Profile</string>
     <string name="nav_logout">Log out</string>
+    <string name="registo_avaria_titulo">Fault Report</string>
+    <string name="fotografias_label">Photos</string>
+    <string name="descricao_label">Detailed Description</string>
+    <string name="tipo_urgencia_label">Urgency Type</string>
+    <string name="urgencia_baixa">Low</string>
+    <string name="urgencia_media">Medium</string>
+    <string name="urgencia_alta">High</string>
+    <string name="localizacao_label">Location</string>
+    <string name="botao_submeter">Submit</string>
+
 </resources>

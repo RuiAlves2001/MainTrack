@@ -25,14 +25,13 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_back_arrow"
                 android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Voltar"
                 app:tint="@color/red" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Registo avaria"
+                android:text="@string/registo_avaria_titulo"
                 android:textSize="18sp"
                 android:textColor="@color/red"
                 android:gravity="center"
@@ -43,7 +42,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fotografias"
+            android:text="@string/fotografias_label"
             android:textStyle="bold"
             android:layout_marginTop="24dp" />
 
@@ -60,32 +59,15 @@
                 android:layout_height="72dp"
                 android:layout_marginEnd="12dp"
                 android:src="@drawable/ic_add_photo"
-                android:contentDescription="Adicionar foto"
                 android:padding="8dp" />
 
-            <ImageView
-                android:id="@+id/photo2"
-                android:layout_width="72dp"
-                android:layout_height="72dp"
-                android:src="@drawable/ic_add_photo"
-                android:contentDescription="Adicionar foto"
-                android:padding="8dp" />
         </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Show all"
-            android:textColor="@color/red"
-            android:textSize="12sp"
-            android:layout_marginTop="4dp"
-            android:layout_gravity="end" />
 
         <!-- Descrição -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Descrição Detalhada"
+            android:text="@string/descricao_label"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
 
@@ -102,7 +84,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tipo Urgência"
+            android:text="@string/tipo_urgencia_label"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
 
@@ -117,14 +99,14 @@
                 android:id="@+id/urgencia_baixa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Baixa"
+                android:text="@string/urgencia_baixa"
                 android:buttonTint="@color/red" />
 
             <RadioButton
                 android:id="@+id/urgencia_media"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Media"
+                android:text="@string/urgencia_media"
                 android:buttonTint="@color/red"
                 android:layout_marginStart="16dp" />
 
@@ -132,7 +114,7 @@
                 android:id="@+id/urgencia_alta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Alta"
+                android:text="@string/urgencia_alta"
                 android:buttonTint="@color/red"
                 android:layout_marginStart="16dp" />
         </RadioGroup>
@@ -141,7 +123,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Localização"
+            android:text="@string/localizacao_label"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
 
@@ -159,7 +141,7 @@
             android:id="@+id/submit_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submeter"
+            android:text="@string/botao_submeter"
             android:textAllCaps="false"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/orange"

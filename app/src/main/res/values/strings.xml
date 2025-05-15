@@ -28,6 +28,16 @@
     <string name="nav_pendentes">Avarias pendentes</string>
     <string name="nav_perfil">Perfil</string>
     <string name="nav_logout">Terminar Sessão</string>
+    <string name="registo_avaria_titulo">Registo avaria</string>
+    <string name="fotografias_label">Fotografias</string>
+    <string name="descricao_label">Descrição Detalhada</string>
+    <string name="tipo_urgencia_label">Tipo Urgência</string>
+    <string name="urgencia_baixa">Baixa</string>
+    <string name="urgencia_media">Média</string>
+    <string name="urgencia_alta">Alta</string>
+    <string name="localizacao_label">Localização</string>
+    <string name="botao_submeter">Submeter</string>
+
 
 
 </resources>
